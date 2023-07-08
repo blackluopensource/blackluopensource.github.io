@@ -100,5 +100,7 @@
                 hreflang="zh-cn"
                 href="https://blackluopensource.github.io/tags/"
                 />
+  </url><url>
+    <loc>https://blackluopensource.github.io/search/</loc>
   </url>
 </urlset>
