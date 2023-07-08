@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <meta property="og:title" content="耗友请求与Coolshell.org联合" />
+<meta property="og:description" content="作者: Atom 皓友们好，
+这是一封请求联合的信。
+有人在自发地帮耗哥实现一些未竟的愿望，每个人的方式可能都不同。
+参考资料：
+coolshell.org 是原生酷壳博客的镜像，由Chenshuo 维护，还有其他耗友做了各种内容备份。
+https://github.com/ghostincoolshell/haoel-articles
+https://github.com/megaease
+简介 我们现在有个小组，主要目标是如何帮MegaEase做海外市场推广，我们以前都没有这种经验，通过远程协作，参考简介：
+[关于我们]
+我们将协作文档全部开源（MegaEase官方许可），即将如何实现MegaEase Marketing的过程公开，依靠耗友的业余碎片时间贡献，期待这样也可以做成一番正经的事业。
+总之这事不能完全由其公司的劳动合同限定范围内的人去做，而是民间自发推动进展，符合互联网共享和开源精神，耗子九泉之下得安慰。
+现在需要一些工程师的各种神技能支持，可以火速提升marketing的效率。
+请求技术支持 由于我们这个小组的人员缺乏IT技能，主要从事marketing，擅长生成（媒体、公关、营销）内容，目前用的是傻瓜式的 notion博客，这也太不极客了，可能由于notion 处于技术圈的鄙视链末端，我们的博客很不畅销，链接丢到技术圈的tg群里，几乎无人响应，穷则思变。。。于是采取以下动作。
+GitHub pages 围绕MegaEase的用户都是程序员，他们更习惯github，怎么样也得用个GitHub pages，这才更符合技术圈的风格，所以请求帮助把内容都搬家到 GitHub，尽量简单，无需额外花费资金成本。
+选择方案 Jekyll：
+https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll
+看好的theme： https://pages.github.com/themes/ （Minima）
+https://github.com/sighingnow/jekyll-gitbook (Gitbook)
+内容维护：
+我们会简单的git PR，本地写md文档，更新远程repo等，所以web 技术支持，基本是一次性到位就可以，后面我们只是往里面不断添加文本内容，应该不会占用技术人员额外的维护时间。
+二级域名 我们想分从 coolshell.org 或其他类似的coolshell一级域名中分个二级域名出来，名字我没想好，也可请你提一些好建议。
+取名基本原则：简短、定义清晰、易懂
+例如：
+用于媒体、公关、营销 Osmarketing.coolshell.org 开源营销
+Ospr.coolshell.org 开源公关
+cloudmarket.coolshell.org 开源市场
+techmedia.coolshell.org 技术媒体
+Web App 托管 当然，也可以考虑把以上所述的（媒体、公关、营销）内容再发布到更专业的Web App托管，例如coolshell.org 用的wordpress中，希望Github里始终有一个备份，方便版本管理和其他人pr。
+愿景 如果我们帮助MegaEase marketing成功了，意味着可能将创建专职的技术营销部门，或拿到投资，或从 MegaEase Cloud的营销中分到收入。
+然后，我们有能力再投入到类似coolshell.org 及其衍生的各种项目中，希望创造各种可能，秉持开源精神一直做下去。
+当然共享主机和域名的成本也没问题，这些工作不应该由一个人承担吧，一群人做才有意思，而且应该有实力做更大一些的事情。
+注释：Arctic Code Vault" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://blackluopensource.github.io/%E8%80%97%E5%8F%8B%E8%AF%B7%E6%B1%82%E4%B8%8Ecoolshell.org%E8%81%94%E5%90%88/" /><meta property="article:section" content="" />
+<meta property="article:published_time" content="2023-06-24T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-06-24T00:00:00+00:00" />
+
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="耗友请求与Coolshell.org联合"/>
+<meta name="twitter:description" content="作者: Atom 皓友们好，
+这是一封请求联合的信。
+有人在自发地帮耗哥实现一些未竟的愿望，每个人的方式可能都不同。
+参考资料：
+coolshell.org 是原生酷壳博客的镜像，由Chenshuo 维护，还有其他耗友做了各种内容备份。
+https://github.com/ghostincoolshell/haoel-articles
+https://github.com/megaease
+简介 我们现在有个小组，主要目标是如何帮MegaEase做海外市场推广，我们以前都没有这种经验，通过远程协作，参考简介：
+[关于我们]
+我们将协作文档全部开源（MegaEase官方许可），即将如何实现MegaEase Marketing的过程公开，依靠耗友的业余碎片时间贡献，期待这样也可以做成一番正经的事业。
+总之这事不能完全由其公司的劳动合同限定范围内的人去做，而是民间自发推动进展，符合互联网共享和开源精神，耗子九泉之下得安慰。
+现在需要一些工程师的各种神技能支持，可以火速提升marketing的效率。
+请求技术支持 由于我们这个小组的人员缺乏IT技能，主要从事marketing，擅长生成（媒体、公关、营销）内容，目前用的是傻瓜式的 notion博客，这也太不极客了，可能由于notion 处于技术圈的鄙视链末端，我们的博客很不畅销，链接丢到技术圈的tg群里，几乎无人响应，穷则思变。。。于是采取以下动作。
+GitHub pages 围绕MegaEase的用户都是程序员，他们更习惯github，怎么样也得用个GitHub pages，这才更符合技术圈的风格，所以请求帮助把内容都搬家到 GitHub，尽量简单，无需额外花费资金成本。
+选择方案 Jekyll：
+https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll
+看好的theme： https://pages.github.com/themes/ （Minima）
+https://github.com/sighingnow/jekyll-gitbook (Gitbook)
+内容维护：
+我们会简单的git PR，本地写md文档，更新远程repo等，所以web 技术支持，基本是一次性到位就可以，后面我们只是往里面不断添加文本内容，应该不会占用技术人员额外的维护时间。
+二级域名 我们想分从 coolshell.org 或其他类似的coolshell一级域名中分个二级域名出来，名字我没想好，也可请你提一些好建议。
+取名基本原则：简短、定义清晰、易懂
+例如：
+用于媒体、公关、营销 Osmarketing.coolshell.org 开源营销
+Ospr.coolshell.org 开源公关
+cloudmarket.coolshell.org 开源市场
+techmedia.coolshell.org 技术媒体
+Web App 托管 当然，也可以考虑把以上所述的（媒体、公关、营销）内容再发布到更专业的Web App托管，例如coolshell.org 用的wordpress中，希望Github里始终有一个备份，方便版本管理和其他人pr。
+愿景 如果我们帮助MegaEase marketing成功了，意味着可能将创建专职的技术营销部门，或拿到投资，或从 MegaEase Cloud的营销中分到收入。
+然后，我们有能力再投入到类似coolshell.org 及其衍生的各种项目中，希望创造各种可能，秉持开源精神一直做下去。
+当然共享主机和域名的成本也没问题，这些工作不应该由一个人承担吧，一群人做才有意思，而且应该有实力做更大一些的事情。
+注释：Arctic Code Vault"/>
+
+  
+  
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#262d33">
+  <title>
+    
+    Blog - 耗友众创 - 耗友请求与Coolshell.org联合
+    
+  </title>
+  
+  
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+  
+  
+  
+  <link rel="stylesheet" href="/minima.8b8fe1b3a00b31fff2d6431976edefe3fcdd9f39cfd6f06d9ffbbd7a77cf9b92.css" integrity="sha256-i4/hs6ALMf/y1kMZdu3v4/zdnznP1vBtn/u9enfPm5I=">
+  
+  
+  
+  <script defer type="text/javascript" src="/minima.1d7cc5703df435480dbb02965de87daddcdb4941191f6385b2fd93745e036723.js" integrity="sha256-HXzFcD30NUgNuwKWXeh9rdzbSUEZH2OFsv2TdF4DZyM="></script>
+  
+  
+  
+</head>
+<script>
+  
+  const default_theme_config = 'light'
+  const default_light_theme = default_theme_config === 'system' ? 'light' : default_theme_config;
+  let default_theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : default_light_theme;
+
+  try {
+    const saved_theme = localStorage.getItem('theme')
+    if (saved_theme) {
+      default_theme = saved_theme === default_light_theme ? saved_theme : default_light_theme;  
+    }
+    localStorage.setItem('theme', default_theme);
+    window.minima_theme = default_theme;
+    document.querySelector('html').classList.add(default_theme);
+  } catch (e) {
+    console.error(e);
+  }
+</script>
+
+
+
+<body>
+  <header class="mt-3 mb-6">
+  <div class="container mx-auto">
+    <nav class="flex justify-between items-center">
+      <div class="flex items-center">
+        
+        <div id="theme-switch" class="text-3xl cursor-pointer">🌝</div>
+      </div>
+      <ul class="flex items-center text-base font-bold
+        whitespace-nowrap overflow-x-auto overflow-y-hidden">
+        
+        <li class="ml-2 mr-2"><a href="/tags">标签</a></li>
+        
+        <li class="ml-2 mr-2"><a href="/series">系列</a></li>
+        
+        <li class="ml-2 mr-2"><a href="/search">🔍</a></li>
+        
+      </ul>
+      <ul class="flex item-center text-sm font-bold">
+        
+        <li class="ml-2"><a href="https://blackluopensource.github.io/en/">EN</a></li>
+        
+        <li class="ml-2"><a href="https://blackluopensource.github.io/">简中</a></li>
+        
+      </ul>
+    </nav>
+  </div>
+</header>
+
+  
+<div class="container mx-auto">
+  <h1 class="text-4xl font-extrabold mt-6 mb-6">耗友请求与Coolshell.org联合</h1>
+  <div class="mb-3 text-sm flex justify-between ">
+    <div>
+      
+      发布于 &mdash; 2023 年 06 月 24 日
+      
+      
+    </div>
+    
+  </div>
+  <main class="mb-8">
+    <p></p>
+    <article class="md">
+      <ul>
+<li>作者: Atom</li>
+</ul>
+<p><strong>皓友们好，</strong></p>
+<p>这是一封请求联合的信。</p>
+<p>有人在自发地帮耗哥实现一些未竟的愿望，每个人的方式可能都不同。</p>
+<p>参考资料：</p>
+<p><a href="https://coolshell.org/">coolshell.org</a> 是原生酷壳博客的镜像，由<a href="https://chenshuo.com/">Chenshuo</a> 维护，还有其他耗友做了各种内容备份。</p>
+<p><a href="https://github.com/ghostincoolshell/haoel-articles">https://github.com/ghostincoolshell/haoel-articles</a></p>
+<p><a href="https://github.com/megaease/Remembering-Haoel">https://github.com/megaease</a></p>
+<h2 id="简介">简介</h2>
+<p>我们现在有个小组，主要目标是如何帮MegaEase做海外市场推广，我们以前都没有这种经验，通过远程协作，参考简介：</p>
+<p>[关于我们]</p>
+<p>我们将协作文档全部开源（MegaEase官方许可），即将如何实现MegaEase Marketing的过程公开，依靠耗友的业余碎片时间贡献，期待这样也可以做成一番正经的事业。</p>
+<blockquote>
+<p>总之这事不能完全由其公司的劳动合同限定范围内的人去做，而是民间自发推动进展，符合互联网共享和开源精神，耗子九泉之下得安慰。</p>
+</blockquote>
+<p>现在需要一些工程师的各种神技能支持，可以火速提升marketing的效率。</p>
+<h1 id="请求技术支持">请求技术<strong>支持</strong></h1>
+<p>由于我们这个小组的人员缺乏IT技能，主要从事marketing，<strong>擅长生成（媒体、公关、营销）内容</strong>，目前用的是傻瓜式的 notion博客，这也太不极客了，可能由于notion 处于技术圈的鄙视链末端，我们的博客很不畅销，链接丢到技术圈的tg群里，几乎无人响应，穷则思变。。。于是采取以下动作。</p>
+<h2 id="github-pages"><strong>GitHub pages</strong></h2>
+<p>围绕MegaEase的用户都是程序员，他们更习惯github，怎么样也得用个GitHub pages，这才更符合技术圈的风格，所以请求帮助把内容都搬家到 GitHub，尽量简单，无需额外花费资金成本。</p>
+<p>选择方案 Jekyll：</p>
+<p><a href="https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll">https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll</a></p>
+<p>看好的theme：
+<a href="https://pages.github.com/themes/">https://pages.github.com/themes/</a> （Minima）</p>
+<p><a href="https://github.com/sighingnow/jekyll-gitbook">https://github.com/sighingnow/jekyll-gitbook</a> (Gitbook)</p>
+<p>内容维护：</p>
+<p>我们会简单的git PR，本地写md文档，更新远程repo等，所以web 技术支持，基本是一次性到位就可以，后面我们只是往里面不断添加文本内容，应该不会占用技术人员额外的维护时间。</p>
+<h2 id="二级域名"><strong>二级域名</strong></h2>
+<p>我们想分从 <a href="https://coolshell.org/">coolshell.org</a> 或其他类似的coolshell一级域名中分个二级域名出来，名字我没想好，也可请你提一些好建议。</p>
+<p>取名基本原则：简短、定义清晰、易懂</p>
+<p>例如：</p>
+<p><strong>用于媒体、公关、营销</strong>
+Osmarketing.coolshell.org 开源营销</p>
+<p>Ospr.coolshell.org 开源公关</p>
+<p>cloudmarket.coolshell.org 开源市场</p>
+<p>techmedia.coolshell.org 技术媒体</p>
+<h2 id="web-app-托管">Web App 托管</h2>
+<p>当然，也可以考虑把以上所述的（<strong>媒体、公关、营销</strong>）<strong>内容</strong>再发布到更专业的Web App托管，例如<a href="https://coolshell.org/">coolshell.org</a> 用的wordpress中，希望Github里始终有一个备份，方便版本管理和其他人pr。</p>
+<h1 id="愿景">愿景</h1>
+<p>如果我们帮助MegaEase marketing成功了，意味着可能将创建专职的技术营销部门，或拿到投资，或从 MegaEase Cloud的营销中分到收入。</p>
+<p>然后，我们有能力再投入到类似coolshell.org 及其衍生的各种项目中，希望创造各种可能，秉持开源精神一直做下去。</p>
+<p>当然共享主机和域名的成本也没问题，这些工作不应该由一个人承担吧，一群人做才有意思，而且应该有实力做更大一些的事情。</p>
+<p>注释：<strong>Arctic Code Vault</strong></p>
+<p>据说GitHub的数据备份在黑胶存储介质中，藏在挪威属地的靠近北极圈的Svalbard地下数百米的永久冻土矿洞中，那里被誉为人类的最后诺亚方舟之地，保存着世界上最大数量的植物种子库和文化遗产的数据档案库。</p>
+<p><a href="https://archiveprogram.github.com/arctic-vault/">https://archiveprogram.github.com/arctic-vault/</a></p>
+<p>刚才看Shuo兄的个人网站<a href="https://chenshuo.com/">https://chenshuo.com/</a>，有点感动了，这哥们真仗义，自己家的房子搞得这么简朴，真正的陋室 。</p>
+<p>舍得投入下重手给朋友 <a href="https://coolshell.org/">https://coolshell.org</a> 的房子装修搞得好好的。</p>
+<p>投稿人：Atom</p>
+<p>我的个人简介及</p>
+<p><a href="http://atomx.cc/c0fe2f13f011482fa3678f63d84d3194">关于我与耗子的经历</a></p>
+
+    </article>
+  </main>
+  
+
+
+
+
+
+<div id="comment"></div>
+
+
+
+
+
+
+
+<script>
+    const s = document.createElement("script")
+    s.src = "https://utteranc.es/client.js"
+    s.crossOrigin = "anonymous"
+    s.async = true
+    s.setAttribute("repo", "blackluopensource\/coolshellx-comments")
+    s.setAttribute("issue-term", "pathname")
+    s.setAttribute("label", "comment")
+    s.setAttribute("theme", "github-" + window.minima_theme)
+    document.getElementById("comment").appendChild(s)
+</script>
+
+
+
+
+
+
+</div>
+
+
+  <footer class="mt-8 mb-8">
+  <div class="container mx-auto">
+    <div class="mt-8 flex flex-col-reverse sm:flex-row sm:justify-between items-center">
+      <div class="text-center sm:text-left">
+        <p class="mt-0 text-sm">© 2022-2023 X</p>
+        <p class="mt-0 text-xs">
+          Built with <a href="https://gohugo.io" target="_blank" rel="noopener noreferrer">Hugo</a> v0.113.0
+          and <a href="https://github.com/mivinci/hugo-theme-minima" target="_blank" rel="noopener noreferrer">Minima</a>
+        </p>
+	<p class="mt-0 text-xs">
+	  Made By <a href="https://github.com/lucasblacklu" target="_blank" rel="noopener noreferrer">Black Lu</a>
+	</p>
+      </div>
+
+      <p class="flex items-center mt-0">
+        
+          <a class="icon ml-1 mr-1" href="https://twitter.com" title="twitter">
+          
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/></svg>
+          
+          </a>
+        
+          <a class="icon ml-1 mr-1" href="" title="email">
+          
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 21" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="M22 6l-10 7L2 6"/></svg>
+          
+          </a>
+        
+          <a class="icon ml-1 mr-1" href="https://github.com" title="github">
+          
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+          
+          </a>
+        
+          <a class="icon ml-1 mr-1" href="/index.xml" title="rss">
+          
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11a9 9 0 0 1 9 9M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg>
+          
+          </a>
+        
+      </p>
+    </div>
+  </div>
+</footer>
+
+</body>
+
+</html>

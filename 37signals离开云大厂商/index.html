@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <meta property="og:title" content="37signals离开云（大厂商）" />
+<meta property="og:description" content="作者：atom 2022年10月开始，DHH及其公司37Signals发系列文章和播客，讲为何离开大云厂商，以及如何离开，掀起了行业一股风浪。
+Why we&rsquo;re leaving the cloud - DHH
+为什么离开云（大厂商） - DHH
+https://world.hey.com/dhh/why-we-re-leaving-the-cloud-654b47e0
+我们在2022年的云支出
+https://dev.37signals.com/our-cloud-spend-in-2022/
+Rework 播客：离开云第一篇 https://37signals.com/podcast/leaving-the-cloud/
+Atom的总结 37signals的联合创始人David Heinemeier Hansson和运营总监Eron Nicholson，在podcast中讨论为什么37signals正在离开大云厂商（尤其是AWS）。
+2020年推出Hey.com时，最初估计在六个月内将有3万名用户，但是在三周内有30万用户，不得不自己苦练技能，才能应对激增的业务量，如果全部委托给大云厂商，或疏于优化云服务配置，账单将会失控。 在某些情况下，在云上配置所花费的时间，可能比自建云的类似大小的配置所花费的时间还要多。
+在初始阶段，通过Heroku、Fly.io或Render这样的完全管理的云服务商，可以推迟建立自己的整个运营团队，但是其后的服务价格也很贵。
+Eron Nicholson还吐露苦衷，以前他们每月支付30万美元给AWS，但AWS根本不关心他们，出现紧急状况的时候，甚至云客服不接电话，在Google上也一样，大云厂商仗着垄断地位，明显很霸道和傲慢，无视小客户的困境。
+而37Signals （例如项目管理Basecamp、邮件Hey) 对待客户的态度和大云厂商不同，如果你有一个重要问题得不到客服的及时答复，那么问题很快就往上转发，最终将由CTO David或运营总监Eron给客户答复。
+供应商确认了以上的说法，在Deft网站上有DDoS相关事件经历可佐证。
+https://deft.com/case-study-37signals/
+与此同时，Eron 夸赞10多年的合作伙伴，例如Deft等小供应商，在37signals受到强烈DDoS攻击的时候，正是小供应商和他们站在一起，不眠不休地解决问题，而对比之下大云厂商的表现就太差了。 注释：关于DDoS这一段的描述，在podcast中没有找到。
+给GPT提问： where could you find DDoS on the webpage leave the cloud? 得到答复：I found the instances where DDoS is mentioned in the transcript of the podcast “Leaving the Cloud” on the webpage. The mentions of DDoS in the podcast are in the following sections:" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://blackluopensource.github.io/37signals%E7%A6%BB%E5%BC%80%E4%BA%91%E5%A4%A7%E5%8E%82%E5%95%86/" /><meta property="article:section" content="" />
+<meta property="article:published_time" content="2023-03-28T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-03-28T00:00:00+00:00" />
+
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="37signals离开云（大厂商）"/>
+<meta name="twitter:description" content="作者：atom 2022年10月开始，DHH及其公司37Signals发系列文章和播客，讲为何离开大云厂商，以及如何离开，掀起了行业一股风浪。
+Why we&rsquo;re leaving the cloud - DHH
+为什么离开云（大厂商） - DHH
+https://world.hey.com/dhh/why-we-re-leaving-the-cloud-654b47e0
+我们在2022年的云支出
+https://dev.37signals.com/our-cloud-spend-in-2022/
+Rework 播客：离开云第一篇 https://37signals.com/podcast/leaving-the-cloud/
+Atom的总结 37signals的联合创始人David Heinemeier Hansson和运营总监Eron Nicholson，在podcast中讨论为什么37signals正在离开大云厂商（尤其是AWS）。
+2020年推出Hey.com时，最初估计在六个月内将有3万名用户，但是在三周内有30万用户，不得不自己苦练技能，才能应对激增的业务量，如果全部委托给大云厂商，或疏于优化云服务配置，账单将会失控。 在某些情况下，在云上配置所花费的时间，可能比自建云的类似大小的配置所花费的时间还要多。
+在初始阶段，通过Heroku、Fly.io或Render这样的完全管理的云服务商，可以推迟建立自己的整个运营团队，但是其后的服务价格也很贵。
+Eron Nicholson还吐露苦衷，以前他们每月支付30万美元给AWS，但AWS根本不关心他们，出现紧急状况的时候，甚至云客服不接电话，在Google上也一样，大云厂商仗着垄断地位，明显很霸道和傲慢，无视小客户的困境。
+而37Signals （例如项目管理Basecamp、邮件Hey) 对待客户的态度和大云厂商不同，如果你有一个重要问题得不到客服的及时答复，那么问题很快就往上转发，最终将由CTO David或运营总监Eron给客户答复。
+供应商确认了以上的说法，在Deft网站上有DDoS相关事件经历可佐证。
+https://deft.com/case-study-37signals/
+与此同时，Eron 夸赞10多年的合作伙伴，例如Deft等小供应商，在37signals受到强烈DDoS攻击的时候，正是小供应商和他们站在一起，不眠不休地解决问题，而对比之下大云厂商的表现就太差了。 注释：关于DDoS这一段的描述，在podcast中没有找到。
+给GPT提问： where could you find DDoS on the webpage leave the cloud? 得到答复：I found the instances where DDoS is mentioned in the transcript of the podcast “Leaving the Cloud” on the webpage. The mentions of DDoS in the podcast are in the following sections:"/>
+
+  
+  
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#262d33">
+  <title>
+    
+    Blog - 耗友众创 - 37signals离开云（大厂商）
+    
+  </title>
+  
+  
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+  
+  
+  
+  <link rel="stylesheet" href="/minima.8b8fe1b3a00b31fff2d6431976edefe3fcdd9f39cfd6f06d9ffbbd7a77cf9b92.css" integrity="sha256-i4/hs6ALMf/y1kMZdu3v4/zdnznP1vBtn/u9enfPm5I=">
+  
+  
+  
+  <script defer type="text/javascript" src="/minima.1d7cc5703df435480dbb02965de87daddcdb4941191f6385b2fd93745e036723.js" integrity="sha256-HXzFcD30NUgNuwKWXeh9rdzbSUEZH2OFsv2TdF4DZyM="></script>
+  
+  
+  
+</head>
+<script>
+  
+  const default_theme_config = 'light'
+  const default_light_theme = default_theme_config === 'system' ? 'light' : default_theme_config;
+  let default_theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : default_light_theme;
+
+  try {
+    const saved_theme = localStorage.getItem('theme')
+    if (saved_theme) {
+      default_theme = saved_theme === default_light_theme ? saved_theme : default_light_theme;  
+    }
+    localStorage.setItem('theme', default_theme);
+    window.minima_theme = default_theme;
+    document.querySelector('html').classList.add(default_theme);
+  } catch (e) {
+    console.error(e);
+  }
+</script>
+
+
+
+<body>
+  <header class="mt-3 mb-6">
+  <div class="container mx-auto">
+    <nav class="flex justify-between items-center">
+      <div class="flex items-center">
+        
+        <div id="theme-switch" class="text-3xl cursor-pointer">🌝</div>
+      </div>
+      <ul class="flex items-center text-base font-bold
+        whitespace-nowrap overflow-x-auto overflow-y-hidden">
+        
+        <li class="ml-2 mr-2"><a href="/tags">标签</a></li>
+        
+        <li class="ml-2 mr-2"><a href="/series">系列</a></li>
+        
+        <li class="ml-2 mr-2"><a href="/search">🔍</a></li>
+        
+      </ul>
+      <ul class="flex item-center text-sm font-bold">
+        
+        <li class="ml-2"><a href="https://blackluopensource.github.io/en/">EN</a></li>
+        
+        <li class="ml-2"><a href="https://blackluopensource.github.io/">简中</a></li>
+        
+      </ul>
+    </nav>
+  </div>
+</header>
+
+  
+<div class="container mx-auto">
+  <h1 class="text-4xl font-extrabold mt-6 mb-6">37signals离开云（大厂商）</h1>
+  <div class="mb-3 text-sm flex justify-between ">
+    <div>
+      
+      发布于 &mdash; 2023 年 03 月 28 日
+      
+      
+    </div>
+    
+  </div>
+  <main class="mb-8">
+    <p></p>
+    <article class="md">
+      <ul>
+<li>作者：atom</li>
+</ul>
+<p>2022年10月开始，DHH及其公司37Signals发系列文章和播客，讲为何离开大云厂商，以及如何离开，掀起了行业一股风浪。</p>
+<p>Why we&rsquo;re leaving the cloud - DHH</p>
+<p>为什么离开云（大厂商） - DHH</p>
+<p><a href="https://world.hey.com/dhh/why-we-re-leaving-the-cloud-654b47e0">https://world.hey.com/dhh/why-we-re-leaving-the-cloud-654b47e0</a></p>
+<p>我们在2022年的云支出</p>
+<p><a href="https://dev.37signals.com/our-cloud-spend-in-2022/">https://dev.37signals.com/our-cloud-spend-in-2022/</a></p>
+<h1 id="rework-播客离开云第一篇">Rework 播客：<strong>离开云第一篇</strong></h1>
+<p><a href="https://37signals.com/podcast/leaving-the-cloud/">https://37signals.com/podcast/leaving-the-cloud/</a></p>
+<h2 id="atom的总结"><strong>Atom的总结</strong></h2>
+<p>37signals的联合创始人David Heinemeier Hansson和运营总监Eron Nicholson，在podcast中讨论为什么37signals正在离开大云厂商（尤其是AWS）。</p>
+<p>2020年推出Hey.com时，最初估计在六个月内将有3万名用户，但是在三周内有30万用户，不得不自己苦练技能，才能应对激增的业务量，如果全部委托给大云厂商，或疏于优化云服务配置，账单将会失控。 在某些情况下，在云上配置所花费的时间，可能比自建云的类似大小的配置所花费的时间还要多。</p>
+<p>在初始阶段，通过<a href="https://www.heroku.com/what">Heroku</a>、<a href="https://fly.io/about/">Fly.io</a>或<a href="https://render.com/about">Render</a>这样的完全管理的云服务商，可以推迟建立自己的整个运营团队，但是其后的服务价格也很贵。</p>
+<p>Eron Nicholson还吐露苦衷，以前他们每月支付30万美元给AWS，但AWS根本不关心他们，出现紧急状况的时候，甚至云客服不接电话，在Google上也一样，大云厂商仗着垄断地位，明显很霸道和傲慢，无视小客户的困境。</p>
+<p>而37Signals （例如项目管理Basecamp、邮件Hey) 对待客户的态度和大云厂商不同，如果你有一个重要问题得不到客服的及时答复，那么问题很快就往上转发，最终将由CTO David或运营总监Eron给客户答复。</p>
+<p>供应商确认了以上的说法，在Deft网站上有DDoS相关事件经历可佐证。</p>
+<p><a href="https://deft.com/case-study-37signals/">https://deft.com/case-study-37signals/</a></p>
+<p>与此同时，Eron 夸赞10多年的合作伙伴，例如Deft等小供应商，在37signals受到强烈DDoS攻击的时候，正是小供应商和他们站在一起，不眠不休地解决问题，而对比之下大云厂商的表现就太差了。 注释：关于DDoS这一段的描述，在podcast中没有找到。</p>
+<h2 id="给gpt提问"><strong>给GPT提问：</strong></h2>
+<p>where could you find DDoS on the webpage <a href="https://37signals.com/podcast/leaving-the-cloud/">leave the cloud</a>? 得到答复：I found the instances where DDoS is mentioned in the transcript of the podcast “Leaving the Cloud” on the <a href="https://37signals.com/podcast/leaving-the-cloud/">webpage</a>. The mentions of DDoS in the podcast are in the following sections:</p>
+<ul>
+<li>At 4:08</li>
+<li>At 10:47</li>
+<li>At 11:34</li>
+<li>At 17:06</li>
+<li>At 23:01</li>
+</ul>
+<p>You can listen to the podcast or read the transcript to find out more about how DDoS attacks influenced 37signals’ decision to leave the cloud.</p>
+<p>铁证，GPT擅长胡编乱造！</p>
+<h2 id="gpt的总结"><strong>GPT的总结</strong></h2>
+<p>In this podcast episode, David Heinemeier Hansson (DHH) and Jason Fried, the founders of Basecamp, discuss their decision to move away from cloud computing and build their own servers.</p>
+<p>According to DHH, the main reason for this decision was the lack of control over the cloud infrastructure. Cloud providers like Amazon Web Services (AWS) or Microsoft Azure have the power to shut down or suspend accounts, and there is little customers can do about it. Basecamp had experienced this problem firsthand, when AWS had shut down their account because of a customer complaint that turned out to be unfounded. This caused a major disruption for Basecamp and led them to rethink their reliance on cloud services.</p>
+<p>Another factor was the cost. While cloud computing can be cost-effective for small businesses or startups, it becomes more expensive as a company grows and needs more resources. Basecamp found that building their own servers was more cost-efficient in the long run, as they could control the hardware and software and avoid paying for unnecessary features or services.</p>
+<p>Finally, DHH and Fried believe that there is a philosophical dimension to leaving the cloud. By building their own servers, they can own their data and ensure its privacy and security. They can also control the quality of the service and make sure it meets their standards.</p>
+<p>However, DHH and Fried acknowledge that building and maintaining your own servers is not for everyone. It requires technical skills and resources that many companies may not have. They also stress that cloud computing can still be a good option for some businesses, especially those that need flexibility or scalability.</p>
+<p>Overall, the podcast episode provides an interesting perspective on the pros and cons of cloud computing, and raises important questions about the control, cost, and ownership of data.</p>
+<p>在本期播客节目中，Basecamp 的创始人 David Heinemeier Hansson (DHH) 和 Jason Fried 讨论了他们放弃云计算并构建自己的服务器的决定。</p>
+<p>据 DHH 称，做出此决定的主要原因是缺乏对云基础设施的控制。 亚马逊网络服务 (AWS) 或微软 Azure 等云提供商有权关闭或暂停账户，而客户对此无能为力。 Basecamp 曾亲身经历过这个问题，当时 AWS 因客户投诉被证明是毫无根据的而关闭了他们的账户。 这对 Basecamp 造成了重大破坏，并导致他们重新考虑对云服务的依赖。</p>
+<p>另一个因素是成本。 虽然云计算对于小型企业或初创企业来说可能具有成本效益，但随着公司的发展和需要更多资源，它会变得更加昂贵。 Basecamp 发现，从长远来看，构建自己的服务器更具成本效益，因为他们可以控制硬件和软件，避免为不必要的功能或服务付费。</p>
+<p>最后，DHH 和 Fried 认为离开云有一个哲学层面。 通过构建自己的服务器，他们可以拥有自己的数据并确保其隐私和安全。 他们还可以控制服务质量并确保其符合他们的标准。</p>
+<p>然而，DHH 和 Fried 承认构建和维护自己的服务器并不适合所有人。 它需要许多公司可能没有的技术技能和资源。 他们还强调，对于某些企业而言，云计算仍然是一个不错的选择，尤其是那些需要灵活性或可扩展性的企业。</p>
+<p>总的来说，播客节目提供了一个关于云计算优缺点的有趣视角，并提出了有关数据控制、成本和所有权的重要问题。</p>
+<h1 id="rework-播客离开云第二篇">Rework 播客：<strong>离开云第二篇</strong></h1>
+<p><a href="https://37signals.com/podcast/leaving-the-cloud-part-2/">https://37signals.com/podcast/leaving-the-cloud-part-2/</a></p>
+<p>节目中谈如何离开云，他们可能使用了德国的<a href="https://www.hetzner.com/de/unternehmen/ueber-uns">Hetzner</a>,  北美的<a href="https://www.digitalocean.com/">Digital Ocean</a>，还有法国的<a href="https://www.ovhcloud.com/">OVH</a>，美国供应商<a href="https://deft.com/about/">Deft</a>，Deft很荣耀地把37signals的推荐语放到首页。</p>
+<p>他们还提到，之前也找了市场上很多的供应商，但是大部分是为军队和银行服务的，价格不可接受，最终找到了一部分合适的供应商，但还是需要自己动手做很多工作，没有完全的解决方案快捷上手的，把各产品线全部都从云上拉下来，还有待时日。</p>
+<p>他们还提到37signals的人不会自己管理数据中心，面对硬件有些束手无策的意思，因此他们购买了CPU和NVME存储等关键部件，收到货的时候，花钱找人开箱并安装到托管的数据中心（Deft, Hetzner）的机架上，今天依然租用着裸机。</p>
+<p>由于技术上的复杂性，截止2023年初，他们至今还没有把37Signals的全系列产品服务都从大云厂商上撤下来，不过已经撤下来很大一部分，节省了超过50%的成本。</p>
+<p>在解决下云并自建云的过程中，总结经验，有望将来可以做成一个产品。 MRSK：在任何地方部署网络应用程序 <a href="https://mrsk.dev/">https://mrsk.dev</a> “部署自己的硬件”，这是DHH在2023年开始的新创业项目，欢迎加入开源贡献。</p>
+
+    </article>
+  </main>
+  
+
+
+
+
+
+<div id="comment"></div>
+
+
+
+
+
+
+
+<script>
+    const s = document.createElement("script")
+    s.src = "https://utteranc.es/client.js"
+    s.crossOrigin = "anonymous"
+    s.async = true
+    s.setAttribute("repo", "blackluopensource\/coolshellx-comments")
+    s.setAttribute("issue-term", "pathname")
+    s.setAttribute("label", "comment")
+    s.setAttribute("theme", "github-" + window.minima_theme)
+    document.getElementById("comment").appendChild(s)
+</script>
+
+
+
+
+
+
+</div>
+
+
+  <footer class="mt-8 mb-8">
+  <div class="container mx-auto">
+    <div class="mt-8 flex flex-col-reverse sm:flex-row sm:justify-between items-center">
+      <div class="text-center sm:text-left">
+        <p class="mt-0 text-sm">© 2022-2023 X</p>
+        <p class="mt-0 text-xs">
+          Built with <a href="https://gohugo.io" target="_blank" rel="noopener noreferrer">Hugo</a> v0.113.0
+          and <a href="https://github.com/mivinci/hugo-theme-minima" target="_blank" rel="noopener noreferrer">Minima</a>
+        </p>
+	<p class="mt-0 text-xs">
+	  Made By <a href="https://github.com/lucasblacklu" target="_blank" rel="noopener noreferrer">Black Lu</a>
+	</p>
+      </div>
+
+      <p class="flex items-center mt-0">
+        
+          <a class="icon ml-1 mr-1" href="https://twitter.com" title="twitter">
+          
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/></svg>
+          
+          </a>
+        
+          <a class="icon ml-1 mr-1" href="" title="email">
+          
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 21" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="M22 6l-10 7L2 6"/></svg>
+          
+          </a>
+        
+          <a class="icon ml-1 mr-1" href="https://github.com" title="github">
+          
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+          
+          </a>
+        
+          <a class="icon ml-1 mr-1" href="/index.xml" title="rss">
+          
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11a9 9 0 0 1 9 9M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg>
+          
+          </a>
+        
+      </p>
+    </div>
+  </div>
+</footer>
+
+</body>
+
+</html>
